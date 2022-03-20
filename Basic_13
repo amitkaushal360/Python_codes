@@ -1,0 +1,3 @@
+c = 'g'
+# print the ASCII value of assigned character in c
+print(f"The ASCII value of {c} is", ord(c))    #ord function converts char ton ascii and char function converts ascii to char e.g char(109)
