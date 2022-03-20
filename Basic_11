@@ -1,0 +1,15 @@
+#A number is Fibonacci if and only if one or both of (5*n2 + 4) or (5*n2 – 4) is a perfect square
+import math
+n=int(input("Enter number to be checked of fibonacci series:"))
+x=(5*n*n)+4       
+x1=math.sqrt(x)   #Taking square root
+x2=math.floor(x1) #Rounds a number down to the nearest integer
+y=(5*n*n)-4
+y1=math.sqrt(y)
+y2=math.floor(y1)
+if n==0:
+    print("Yes, fibonacci number")
+elif x1==x2 or y1==y2:
+    print("Yes, fibonacci number")
+else:
+    print("Not a fibonacci number")
