@@ -1,0 +1,5 @@
+a=[1,2,3,4,5] #user_input
+pos1=int(input("First Position to change:"))
+pos2=int(input("Second Position to change:"))
+a[pos1], a[pos2] = a[pos2], a[pos1]
+print(a)
