@@ -1,0 +1,15 @@
+result=1
+lst=[2,4,5,3]
+for i in range(len(lst)):
+    result=result*lst[i]
+print("Result using for loop:",result)
+
+#or we can use product function from numpy library
+import numpy
+result1 = numpy.prod(lst)
+print("Result using numpy library:",result1)
+
+#or we can use product function from math library
+import math
+result2 = numpy.prod(lst)
+print("Result using math library:",result2)
