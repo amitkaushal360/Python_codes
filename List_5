@@ -1,0 +1,10 @@
+a =[6,0,4,1]
+b =[4,5,7,3]
+print('List a before clear:', a) 
+print('List b before clear:', b) 
+#using clear function  
+a.clear() 
+print('List a after clear:', a) 
+#using reinitialization
+b=[]
+print('List b after clear:', b)
