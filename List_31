@@ -1,0 +1,12 @@
+list1=[2,4,6,8]
+list2=[11,9,7,5]
+new_list1=[]
+
+for i in range(len(list1)):
+    result1=list1[i]*list2[i]
+    new_list1.append(result1)
+print("New list using simple for loop:",new_list1)
+
+#new list using list comprehension
+new_list2=[list1[i]*list2[i] for i in range(len(list1))]
+print("New list using list comprehension:",new_list2)
