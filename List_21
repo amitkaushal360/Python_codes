@@ -1,0 +1,11 @@
+#using list comprehension
+test_list = [5, 6, [], 3, [], [], 9]
+print("The original list1 is : " + str(test_list))
+res = [ele for ele in test_list if ele != []]
+print ("List after empty list1 removal : " + str(res))
+test_list2 = [6, 55, 23, [], 7, 9, []]
+  
+# using filter function
+print("The original list2 is : " + str(test_list2))
+res2 = list(filter(None, test_list2))
+print ("List after empty list2 removal : " + str(res2))
