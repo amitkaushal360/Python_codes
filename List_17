@@ -1,0 +1,17 @@
+#using for loop
+lst=[2,5,-4,9,-8,-45]
+new_lst=[]
+for i in range(len(lst):
+    if lst[i]>0:
+        new_lst.append(lst[i])
+print(new_lst)
+
+#using while loop
+lst2=[67,7,-71,9,-19,-5]
+new_lst2=[]
+i=0
+while i<len(lst2):
+    if lst2[i]>0:
+        new_lst2.append(lst2[i])
+    i=i+1
+print(new_lst2)
