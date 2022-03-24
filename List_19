@@ -1,0 +1,9 @@
+#using for loop
+start_lst=int(input("Enter Start number:"))
+end_lst=int(input("Enter End number:"))
+
+new_lst=[]
+for i in range(start_lst,end_lst+1):
+    if i>0:
+        new_lst.append(i)
+print(new_lst)
