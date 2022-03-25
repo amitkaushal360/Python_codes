@@ -1,0 +1,17 @@
+#using counter
+from collections import Counter
+l1 = [1,2,1,2,3,4,5,1,1,2,5,6,7,8,9,9]
+d = Counter(l1)
+print(d)
+new_list = list([item for item in d if d[item]>1])
+print("output using counter is:",new_list)
+
+#using count method
+lst = [1,2,1,2,3,4,5,1,1,2,5,6,7,8,9,9] 
+new = []
+for i in lst: 
+     n = lst.count(i) 
+     if n > 1:        
+       if new.count(i) == 0:  # to avoid repeation
+             new.append(i)
+print("output using count is:",new)
