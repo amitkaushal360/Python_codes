@@ -1,0 +1,17 @@
+lst = [8, 6, 8, 10, 8, 20, 10, 8, 8]
+x = 8 #item to be checked
+count=0
+for i in lst:
+    if i==8:
+        count=count+1
+print(f"{x} occured {count} times")
+
+#using count method
+y = 10 #item to be checked
+print(f"{y} occured {lst.count(y)}")
+
+#using counter 
+from collections import Counter
+z = 6
+d = Counter(lst)
+print(f"{z} occured {d[z]}") 
