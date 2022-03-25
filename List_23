@@ -1,0 +1,40 @@
+#1 using slice operator
+lst1=[12,34,45,453,24]
+lst2=lst1[:]
+print("Before copy lst1:",lst1)
+print("After copy lst2:",lst2)
+
+#2 Using the in-built function extend()
+li1 = [4, 8, 2, 10, 15, 18]
+li2=[]
+li2.extend(li1)
+print("Original List li1:", li1)
+print("After Cloning li2:", li2)
+
+#3 using in-built copy function
+li3 = [4, 8, 2, 10, 15, 18]
+li4=[]
+li4=li3.copy()
+print("Original List li3:", li3)
+print("After Cloning li4:", li4)
+
+#4 using list function 
+li3 = [4, 8, 2, 10, 15, 18]
+li5=[]
+li5 = list(li3)
+print("Original List li3:", li3)
+print("After Cloning li5:", li5)
+
+#5 using for loop
+li3 = [4, 8, 2, 10, 15, 18]
+li6 = [i for i in li3]
+print("Original list li3:",li3)
+print("After cloning li6:",li6)
+
+#6 using append 
+li3 = [4, 8, 2, 10, 15, 18]
+li7 = []
+for item in li3: li7.append(item)
+print("Original List li3:", li3)
+print("After Cloning li7:", li7)
+
