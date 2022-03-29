@@ -1,0 +1,9 @@
+a=[12,45,56,33,34]
+b=[]
+print("Original list is:"+str(a))
+for i in a:
+    sum=0
+    for j in str(i):
+        sum+=int(j)
+    b.append(sum)
+print("List after summation:"+str(b))
