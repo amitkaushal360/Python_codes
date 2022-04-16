@@ -1,0 +1,7 @@
+def rev(a):
+    l=a.split(" ")
+    n=[]
+    for i in range(len(l)-1,-1,-1):
+        n.append(l[i])
+    print(" ".join(n))
+rev("hello how are you")
