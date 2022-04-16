@@ -1,0 +1,7 @@
+def str_rem(a):
+    print("Original number is:",a)
+    i=int(input("Enter position to be removed:"))
+    lst=list(a)
+    lst.remove(lst[i])
+    print("".join(lst))
+str_rem("sodexo")
