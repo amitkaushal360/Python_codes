@@ -1,0 +1,7 @@
+def check_str(s1,s2):
+    l1=s1.split(" ")
+    if s2 in l1:
+        print("Yes")
+    else:
+        print("No")
+check_str("how are you","how")
