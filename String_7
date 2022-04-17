@@ -1,0 +1,7 @@
+def sna_pas(a):
+    l=a.split("_")
+    n=[]
+    for i in l:
+        n.append(i.capitalize())
+    print("".join(n))
+sna_pas("you_are_best")
