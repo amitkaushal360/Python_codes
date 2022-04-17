@@ -1,0 +1,12 @@
+def check_str(a):
+  b=list(a)
+  l=[]
+  vowels=["a","e","i","o","u"]
+  for i in vowels:
+      if i in b:
+          l.append(i)
+  if len(l)==len(vowels):
+      print("Accepted")
+  else:
+      print("Not accepted")
+check_str("heeiiaaaouppp")
