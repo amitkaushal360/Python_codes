@@ -1,0 +1,9 @@
+def check_str(a,b):
+  a1=list(a)
+  b1=list(b)
+  counter=0
+  for i in b1:
+      if i in a1:
+          counter=counter+1
+  print(counter)
+check_str("ddjjkj","pdjk")
