@@ -1,0 +1,9 @@
+def check_rep(a):
+  a="hello how are u"
+  a1=list(a)
+  b1=[]
+  for i in a1:
+    if i not in b1:
+      b1.append(i)
+  return "".join(b1)
+check_rep("hello how are u")
