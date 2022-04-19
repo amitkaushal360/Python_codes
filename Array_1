@@ -1,8 +1,7 @@
-# input values to list
-arr = [12, 3, 4, 15]
+arr=np.array([[2,3,4],[3,4,5],[1,1,1]])
+s=0
 
-# sum() is an inbuilt function in python that adds
-
-ans = sum(arr)
-
-print ('Sum of the array is ',ans)
+print("Sum using sum method: ",arr.sum())
+for i in arr:
+  s=s+i
+print("Sum using loop: ",s)
