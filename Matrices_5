@@ -1,0 +1,10 @@
+import numpy as np
+def transpo(arr1):
+  trans=np.zeros(9).reshape(3,3)
+  print("Array1:\n",arr1)
+  for i in range(len(arr1)):
+    for j in range(len(arr1[i])):
+      trans[i][j]=arr1[j][i]
+  print("Transpose using numpy:",np.transpose(arr1))
+  print("Transpose using loop:",trans)
+transpo(np.arange(9).reshape(3,3))
