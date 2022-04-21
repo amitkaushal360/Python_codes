@@ -1,0 +1,7 @@
+import numpy as np
+def ad_sub(arr1,arr2):
+  print("Array1:\n",arr1)
+  print("Array2:\n",arr2)
+  print("Matric after Sum:\n", np.add(arr1,arr2))
+  print("Matric after Subtraction:\n",np.subtract(arr1,arr2))
+ad_sub((np.arange(0,4)).reshape(2,2),np.arange(4,8).reshape(2,2))
