@@ -1,0 +1,10 @@
+import numpy as np
+def pro(arr1):
+  product=1
+  for i in arr1:
+    for j in i:
+      product=product*j
+  print("Array1:\n",arr1)
+  print("Product using numpy:",arr1.prod())
+  print("Product using loop:",product)
+pro((np.arange(1,10)).reshape(3,3))
