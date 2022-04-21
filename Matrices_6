@@ -1,0 +1,13 @@
+def new_mat(l):
+  arr=np.zeros(l*l).reshape(l,l)
+  next=0
+  for i in range(l):
+      if i>0:
+        next=next+l
+      for j in range(l):
+        if i==0:
+         arr[i,j]= j
+        else:
+          arr[i,j]=j+next
+  return arr
+new_mat(4)
